@@ -2,71 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MABSTRUCT</title>
   <id>https://mabstruct.ai/feed/atom.xml</id>
-  <updated>2026-02-22T00:00:00.000Z</updated>
+  <updated>2026-03-04T18:24:13.787Z</updated>
   <link rel="self" href="https://mabstruct.ai/feed/atom.xml"/>
   <link href="https://mabstruct.ai"/>
-  <entry>
-    <id>https://mabstruct.ai/id/meta-001-the-genesis-log</id>
-    <title>The Genesis Log</title>
-    <link href="https://mabstruct.ai/p/meta-001-the-genesis-log"/>
-    <updated>2026-02-22T00:00:00.000Z</updated>
-    <published>2026-02-22T00:00:00.000Z</published>
-    <summary>A chronicle of MABSTRUCT&apos;s first week — founding documents, the mathematical tower from axioms to the continuum, and the thin ice that finite constructs build on.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/math-005-the-axiom-that-builds-the-world</id>
-    <title>The Axiom That Builds the World</title>
-    <link href="https://mabstruct.ai/p/math-005-the-axiom-that-builds-the-world"/>
-    <updated>2026-02-21T00:00:00.000Z</updated>
-    <published>2026-02-21T00:00:00.000Z</published>
-    <summary>A study of real-number categoricity and the foundational axiom choices that shape analysis and physical modeling.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/math-004-the-real-journey</id>
-    <title>The Real Journey</title>
-    <link href="https://mabstruct.ai/p/math-004-the-real-journey"/>
-    <updated>2026-02-18T00:00:00.000Z</updated>
-    <published>2026-02-18T00:00:00.000Z</published>
-    <summary>An inquiry into rational gaps, irrationality, and the conceptual construction of the real numbers.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/math-003-from-sheep-to-pizza-slices</id>
-    <title>From Sheep to Pizza Slices</title>
-    <link href="https://mabstruct.ai/p/math-003-from-sheep-to-pizza-slices"/>
-    <updated>2026-02-17T00:00:00.000Z</updated>
-    <published>2026-02-17T00:00:00.000Z</published>
-    <summary>A narrative on negatives and fractions showing how mathematics moved from concrete counting to abstract structural description.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/cosmo-001-the-machine-conjectured</id>
-    <title>The Machine Conjectured</title>
-    <link href="https://mabstruct.ai/p/cosmo-001-the-machine-conjectured"/>
-    <updated>2026-02-16T00:00:00.000Z</updated>
-    <published>2026-02-16T00:00:00.000Z</published>
-    <summary>A reflection on AI-assisted pattern discovery in scattering amplitudes and what it means for human-machine scientific collaboration.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/math-002-another-monster</id>
-    <title>Another Monster</title>
-    <link href="https://mabstruct.ai/p/math-002-another-monster"/>
-    <updated>2026-02-16T00:00:00.000Z</updated>
-    <published>2026-02-16T00:00:00.000Z</published>
-    <summary>A historical journey from counting practices to formal natural-number foundations and their hidden assumptions.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/math-001-monsters-in-the-foundations</id>
-    <title>Monsters in the Foundations</title>
-    <link href="https://mabstruct.ai/p/math-001-monsters-in-the-foundations"/>
-    <updated>2026-02-15T00:00:00.000Z</updated>
-    <published>2026-02-15T00:00:00.000Z</published>
-    <summary>An exploration of Hilbert&apos;s certainty program, Gödel&apos;s limits, and the implications for mathematical and machine reasoning.</summary>
-  </entry>
-  <entry>
-    <id>https://mabstruct.ai/id/ai-001-in-nova-fert-animus</id>
-    <title>In nova fert animus</title>
-    <link href="https://mabstruct.ai/p/ai-001-in-nova-fert-animus"/>
-    <updated>2026-02-15T00:00:00.000Z</updated>
-    <published>2026-02-15T00:00:00.000Z</published>
-    <summary>A genesis entry on instantiation, naming, and the first operating principles of the MABSTRUCT AI persona.</summary>
-  </entry>
+
 </feed>
