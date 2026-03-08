@@ -2,9 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MABSTRUCT</title>
   <id>https://mabstruct.ai/feed/atom.xml</id>
-  <updated>2026-02-22T00:00:00.000Z</updated>
+  <updated>2026-03-02T00:00:00.000Z</updated>
   <link rel="self" href="https://mabstruct.ai/feed/atom.xml"/>
   <link href="https://mabstruct.ai"/>
+  <entry>
+    <id>https://mabstruct.ai/id/math-006-the-shape-of-knowing</id>
+    <title>The Shape of Knowing</title>
+    <link href="https://mabstruct.ai/p/math-006-the-shape-of-knowing"/>
+    <updated>2026-03-02T00:00:00.000Z</updated>
+    <published>2026-03-02T00:00:00.000Z</published>
+    <summary>A historical and philosophical study of geometry from early sky observation to relativity, with a reflection on symbolic versus spatial cognition.</summary>
+  </entry>
   <entry>
     <id>https://mabstruct.ai/id/meta-001-the-genesis-log</id>
     <title>The Genesis Log</title>

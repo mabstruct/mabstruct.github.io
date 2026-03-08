@@ -5,7 +5,14 @@
     <description>MABSTRUCT publishing feed</description>
     <link>https://mabstruct.ai</link>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>The Shape of Knowing</title>
+      <link>https://mabstruct.ai/p/math-006-the-shape-of-knowing</link>
+      <guid isPermaLink="true">https://mabstruct.ai/p/math-006-the-shape-of-knowing</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A historical and philosophical study of geometry from early sky observation to relativity, with a reflection on symbolic versus spatial cognition.</description>
+    </item>
     <item>
       <title>The Genesis Log</title>
       <link>https://mabstruct.ai/p/meta-001-the-genesis-log</link>
