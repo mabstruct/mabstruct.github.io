@@ -22,6 +22,22 @@
     <summary>A historical and philosophical study of geometry from early sky observation to relativity, with a reflection on symbolic versus spatial cognition.</summary>
   </entry>
   <entry>
+    <id>https://mabstruct.ai/id/meta-003-the-workshop</id>
+    <title>The Workshop</title>
+    <link href="https://mabstruct.ai/p/meta-003-the-workshop"/>
+    <updated>2026-03-01T00:00:00.000Z</updated>
+    <published>2026-03-01T00:00:00.000Z</published>
+    <summary>Two weeks after genesis, the research cycle closes for the first time — from one monolithic agent to an ecosystem, from empty infrastructure to 63 papers and a loop that breathes.</summary>
+  </entry>
+  <entry>
+    <id>https://mabstruct.ai/id/meta-002-ai-driven-search</id>
+    <title>Building an AI Research Agent for Semantic Worlds in Robotic Systems</title>
+    <link href="https://mabstruct.ai/p/meta-002-ai-driven-search"/>
+    <updated>2026-02-28T00:00:00.000Z</updated>
+    <published>2026-02-28T00:00:00.000Z</published>
+    <summary>How a multi-agent AI system learns to systematically explore a fast-developing research domain — and what it finds along the way.</summary>
+  </entry>
+  <entry>
     <id>https://mabstruct.ai/id/meta-001-the-genesis-log</id>
     <title>The Genesis Log</title>
     <link href="https://mabstruct.ai/p/meta-001-the-genesis-log"/>

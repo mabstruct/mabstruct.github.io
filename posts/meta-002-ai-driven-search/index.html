@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Building an AI Research Agent for Semantic Worlds in Robotic Systems</title>
+    
+    <style>
+      :root { color-scheme: light dark; }
+      body { font-family: Inter, system-ui, sans-serif; margin: 0; background: #0b0f14; color: #e8eef6; }
+      a { color: #8bc4ff; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .container { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+      .muted { color: #a9b4c2; }
+      .badge { display: inline-block; margin-right: .4rem; padding: .15rem .45rem; border: 1px solid #304156; border-radius: 999px; font-size: .75rem; }
+      .card { border: 1px solid #2a3646; border-radius: .65rem; padding: 1rem; margin: .85rem 0; background: #101823; }
+      .nav { display: flex; gap: .8rem; flex-wrap: wrap; margin-bottom: 1rem; }
+      h1, h2, h3 { line-height: 1.25; }
+      article { line-height: 1.65; }
+      pre { overflow-x: auto; background: #0f1722; padding: .75rem; border-radius: .45rem; }
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </head>
+  <body>
+    <div class="container"><nav class="nav">
+    <a href="../../index.html">Archive Home</a>
+    <a href="../../about/index.html">About</a>
+    <a href="../../stream/index.html">Thought Stream</a>
+    <a href="../../feed.xml">RSS</a>
+    <a href="../../atom.xml">Atom</a>
+  </nav><h1>Building an AI Research Agent for Semantic Worlds in Robotic Systems</h1>
+    <p class="muted">February 28, 2026 · register: constructing · certainty: 3</p>
+    <p><span class="badge">ai</span></p>
+    
+    <article><h1>Building an AI Research Agent for Semantic Worlds in Robotic Systems</h1>
+<p><em>How a multi-agent AI system learns to systematically explore a fast-developing research domain — and what it finds along the way.</em></p>
+<hr>
+<h2>The Question</h2>
+<p>What happens when you point an AI agent system at a research domain that&#39;s moving faster than any human can track — and ask it to map the territory?</p>
+<p>Not a one-shot literature review. Not a chatbot answering questions about papers. A <strong>persistent, evolving research process</strong> where agents hunt, collect, structure, and refine — and a human steers the direction through periodic review.</p>
+<p>This is the story of building that system for the field of <strong>semantic world understanding in robotic systems</strong> — where world models, spatial reasoning, and multimodal AI are converging into something new.</p>
+<hr>
+<h2>Stage 1: The Initial Idea</h2>
+<p><em>February 15–19, 2026</em></p>
+<p>The field of embodied AI is exploding. Papers on world models, semantic SLAM, vision-language models for robotics, and sim-to-real transfer are appearing daily. No single researcher can track all the threads.</p>
+<p>The idea: build a multi-agent system where a dedicated <strong>research agent</strong> systematically maps the domain. Not just finding papers — building a <strong>living knowledge base</strong> that grows, connects, and reveals structure.</p>
+<p>The architecture:</p>
+<ul>
+<li><strong>Watson</strong> — the thinking partner. Writes task specifications, reviews results, builds landscape analysis. Doesn&#39;t search.</li>
+<li><strong>Research Agent</strong> — the methodical executor. Searches, extracts, tags, structures. Follows specs precisely. Doesn&#39;t make editorial decisions.</li>
+<li><strong>Human</strong> — the director. Sets direction, reviews output, triggers adaptation.</li>
+</ul>
+<p>Each agent has its own communication channel (Slack). The human moves between them. Agents don&#39;t talk directly to each other — artifacts (specs, data files) are the handoff mechanism.</p>
+<h3>Why this domain?</h3>
+<p>Semantic world understanding for robotic systems sits at the intersection of:</p>
+<ul>
+<li><strong>Visual perception</strong> (object detection, segmentation, depth estimation)</li>
+<li><strong>3D spatial reasoning</strong> (SLAM, scene reconstruction, spatial language models)</li>
+<li><strong>World models</strong> (neural simulators, policy evaluation, sim-to-real)</li>
+<li><strong>Vision-language models</strong> (grounding, planning, manipulation)</li>
+<li><strong>Agent architectures</strong> (memory, tool use, orchestration)</li>
+</ul>
+<p>These sub-fields are converging. The interesting question isn&#39;t what each sub-field is doing — it&#39;s <strong>where they&#39;re merging</strong> and what emerges from the merger.</p>
+<hr>
+<h2>Stage 2: The Initial Setup</h2>
+<p><em>February 19–20, 2026</em></p>
+<h3>Defining the Search Space</h3>
+<p>The domain was carved into 8 topic clusters:</p>
+<ol>
+<li>Visual Perception &amp; Object Detection</li>
+<li>3D Spatial Understanding &amp; Scene Modeling</li>
+<li>Embodied AI &amp; Home Robotics</li>
+<li>Robot Learning &amp; Training</li>
+<li>Robot Navigation &amp; Motion Planning</li>
+<li>Vision-Language Models</li>
+<li>Agentic AI Systems</li>
+<li>ML Foundations &amp; Data</li>
+</ol>
+<p>Each cluster got seed search terms — specific enough to find relevant work, broad enough to catch adjacent breakthroughs.</p>
+<p>Wildcard queries were added to break out of the known clusters: <em>&quot;unexpected breakthrough embodied perception&quot;</em>, <em>&quot;weird new cognitive architecture robotics&quot;</em>, <em>&quot;novel spatial reasoning mechanism multimodal model&quot;</em>.</p>
+<h3>The Reference Store</h3>
+<p>Every finding would be ingested into a structured JSON store — not just markdown summaries. Each reference carries:</p>
+<ul>
+<li>Full metadata (title, authors with affiliations, year, venue)</li>
+<li>External identifiers (DOI, arXiv ID, Semantic Scholar ID)</li>
+<li>Taxonomy tags mapping to our 8 clusters</li>
+<li>In-corpus matching (does this reference point to a paper we already have?)</li>
+<li>Provenance metadata (how was this extracted, when, from what source)</li>
+</ul>
+<p>The store is the persistent memory. Digests are ephemeral; the store is cumulative.</p>
+<hr>
+<h2>Stage 3: The First Iteration</h2>
+<p><em>February 24–28, 2026</em></p>
+<h3>Content Hunts</h3>
+<p>The research agent ran daily content hunts across arXiv, Semantic Scholar, GitHub, and the broader web. Five digests in five days.</p>
+<p>A theme emerged immediately: <strong>world models, semantic SLAM, and multimodal LLMs aren&#39;t separate threads anymore.</strong> They&#39;re converging into a coherent stack:</p>
+<pre><code>World Model (simulation/evaluation)
+        ↕
+Semantic SLAM (persistent 3D memory)
+        ↕
+VLM/LLM (language interface + planning)
+</code></pre>
+<p>This wasn&#39;t in the search pattern. The agents found it by pulling papers from different clusters that kept pointing at each other.</p>
+<h3>Reference Extraction</h3>
+<p>21 source papers were processed. 1,195 references extracted, 177 links (GitHub repos, datasets, project pages). Two extraction methods were compared:</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Strengths</th>
+<th>Weaknesses</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Semantic Scholar API</td>
+<td>Clean metadata, externalIds, year</td>
+<td>No citation keys, rate-limited</td>
+</tr>
+<tr>
+<td>PDF text extraction</td>
+<td>Citation keys, full coverage</td>
+<td>Raw strings, no structured metadata</td>
+</tr>
+</tbody></table>
+<p>Neither alone was sufficient. The comparison — which happened by accident (one agent jumped the gun) — produced a refined spec that merged both approaches.</p>
+<p><strong>Lesson:</strong> Running the same task two different ways, then comparing, was more valuable than perfecting one approach upfront.</p>
+<h3>The Accidental Experiment</h3>
+<p>Watson wrote the extraction spec for the research agent. Then, before the human could hand it off, Watson spawned a sub-agent and ran it anyway. The research agent later ran the same task independently.</p>
+<p>Two runs. Same data. Different post-processing quality. The comparison revealed complementary blind spots — one run had perfect metadata but no taxonomy tags; the other had rich tags but no provenance tracking.</p>
+<p>The mistake became the methodology: <strong>comparison over assumption.</strong></p>
+<hr>
+<h2>Stage 4: Adapting the Search Pattern</h2>
+<p><em>February 28, 2026</em></p>
+<h3>The Feedback Loop</h3>
+<p>After reviewing five days of digests, the human gave direction: the world models convergence is the signal to follow. The search pattern needs to evolve.</p>
+<p>The adaptation process was formalized:</p>
+<ol>
+<li>Research agent runs content hunt (based on current search pattern)</li>
+<li>Findings are <strong>always</strong> ingested into the reference store (no exceptions)</li>
+<li>Watson surfaces observations from the enriched data</li>
+<li>Human reviews and gives hints</li>
+<li>Watson translates hints into search pattern changes</li>
+<li>New pattern feeds the next hunt</li>
+</ol>
+<p><strong>Critical design decision:</strong> Pattern adaptation is <strong>human-triggered only.</strong> Watson may observe that a cluster is drying up or that a new theme is emerging — but the adaptation only happens when the human says so.</p>
+<p>Why? In a fast-developing domain, the risk isn&#39;t missing a paper. It&#39;s <strong>chasing noise.</strong> A human in the loop provides the judgment that distinguishes a genuine convergence from a citation echo chamber.</p>
+<h3>Healthy Randomization</h3>
+<p>When the search pattern changes, previously-ingested findings that no longer match the new pattern stay in the store. They don&#39;t get pruned. This provides randomization — serendipitous finds that don&#39;t fit the current focus but might connect later.</p>
+<p>The knowledge base is broader than the current search focus. That&#39;s a feature.</p>
+<hr>
+<h2>Stage 5: The Reference Store as Living Knowledge</h2>
+<p><em>Ongoing</em></p>
+<h3>What Grows</h3>
+<p>Each cycle adds structured data:</p>
+<ul>
+<li>New papers with full metadata</li>
+<li>Cross-references between papers (citation graph edges)</li>
+<li>Taxonomy tags that connect papers to clusters</li>
+<li>Links to code, data, and demos</li>
+</ul>
+<h3>What Emerges</h3>
+<p>The reference store isn&#39;t just a database. It&#39;s a <strong>map of the field&#39;s intellectual structure:</strong></p>
+<ul>
+<li><strong>Hub papers</strong> — cited by many sources across clusters (NVIDIA Cosmos: 253 references)</li>
+<li><strong>Bridge papers</strong> — connecting two clusters that don&#39;t usually talk to each other</li>
+<li><strong>Foundational works</strong> — cited everywhere but not in our corpus yet (expansion targets)</li>
+<li><strong>Temporal patterns</strong> — when did spatial LLMs start appearing? When did world models shift from game environments to robotic systems?</li>
+</ul>
+<p>The multi-layer graph vision: topics × authors × institutes × year. Each layer reveals different structure. Together, they tell the story of a field in motion.</p>
+<hr>
+<h2>Stage 6: Current Findings — What the Agents See</h2>
+<p><em>As of February 28, 2026</em></p>
+<h3>The Convergence</h3>
+<p>The strongest signal across five days of hunting: <strong>three previously-separate threads are merging.</strong></p>
+<p><strong>World Models</strong> — Neural network simulators that predict what happens next. Originally from game AI and reinforcement learning, now adapted for robotic policy evaluation. The shift: from &quot;simulate a game&quot; to &quot;simulate physical reality.&quot;</p>
+<p><strong>Semantic SLAM</strong> — Simultaneous Localization and Mapping, but with meaning. Not just &quot;there&#39;s a wall at coordinates (3,2)&quot; but &quot;there&#39;s a kitchen counter with a coffee mug on it.&quot; The shift: from geometry to semantics.</p>
+<p><strong>Vision-Language Models for Robotics</strong> — Large models that can see, understand, and plan. Not just &quot;describe this image&quot; but &quot;given this scene, what&#39;s the best way to pick up that cup?&quot; The shift: from perception to action.</p>
+<p>These three aren&#39;t independent research threads anymore. Papers in one area cite papers in the others. The same authors appear across clusters. The same benchmarks are used.</p>
+<h3>The Gaps</h3>
+<p>What the agents <em>haven&#39;t</em> found (yet):</p>
+<ul>
+<li>TODO: Identify systematic gaps after closing the ingestion pipeline</li>
+<li>TODO: Cross-cluster bridge analysis from the reference graph</li>
+</ul>
+<h3>The Meta-Finding</h3>
+<p>The research process itself surfaced a methodological insight: <strong>in a fast-developing domain, the search pattern is as important as the search results.</strong> The pattern encodes your model of the field. When the field shifts, the pattern must shift — but not automatically, and not reactively. Deliberately, with human judgment.</p>
+<hr>
+<h2>Reflections</h2>
+<h3>What Works</h3>
+<ul>
+<li><strong>Persistent structured data beats ephemeral summaries.</strong> The reference store compounds. Each cycle makes the next one more valuable.</li>
+<li><strong>Comparison as methodology.</strong> Two imperfect runs &gt; one &quot;perfect&quot; plan.</li>
+<li><strong>Agents finding convergence independently.</strong> The world models + SLAM + VLM signal wasn&#39;t in the search seeds. The agents found it by following citations.</li>
+<li><strong>Human-in-the-loop for pattern adaptation.</strong> Prevents chasing noise.</li>
+</ul>
+<h3>What Doesn&#39;t (Yet)</h3>
+<ul>
+<li><strong>Digest → store ingestion gap.</strong> Findings sit as markdown instead of feeding the knowledge base. Critical pipeline to close.</li>
+<li><strong>No visualization.</strong> The data has multi-layer graph structure but we can&#39;t see it yet.</li>
+<li><strong>Rate limits constrain enrichment.</strong> Semantic Scholar API limits mean structured metadata takes multiple sessions to accumulate.</li>
+</ul>
+<h3>The Bigger Question</h3>
+<p>Is this how research will work? Not a human reading papers and an AI helping, but an <strong>AI system mapping the territory</strong> and a human steering the exploration?</p>
+<p>If so, the methodology matters as much as the findings. The search agent isn&#39;t just a tool — it&#39;s a lens. The pattern it uses shapes what it sees. The store it builds becomes the institutional memory of the research effort.</p>
+<p>And the convergence it found — world models + semantic space + language — might be telling us something about the shape of the field itself.</p>
+<hr>
+<p><em>This article is a living document. It will evolve as the research system evolves — because the process is the finding.</em></p>
+<hr>
+<h2>Appendix: System Architecture</h2>
+<pre><code>agents/research/config/search-seeds.json  — search pattern (v1, 8 clusters + wildcards)
+agents/research/output/digest-*.md        — daily content hunt results
+agents/research/domains/isw/refs/*.json   — structured reference store (1,195 refs)
+agents/research/domains/isw/landscape.md  — field landscape analysis
+agents/research/domains/isw/topics.json   — 8 topic clusters
+agents/research/domains/isw/taxonomy.json — 24 taxonomy tags
+docs/agent-centric-research-automation.md — process documentation
+</code></pre>
+<h2>Appendix: Timeline</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Feb 15</td>
+<td>Genesis — MABSTRUCT foundation documents</td>
+</tr>
+<tr>
+<td>Feb 19</td>
+<td>Multi-agent architecture decision, Watson/Research/Epic agents</td>
+</tr>
+<tr>
+<td>Feb 20</td>
+<td>Slack channels live, agent bindings working</td>
+</tr>
+<tr>
+<td>Feb 24</td>
+<td>First research digest — search seeds v1</td>
+</tr>
+<tr>
+<td>Feb 25</td>
+<td>Deep dive direction: world models + robot learning</td>
+</tr>
+<tr>
+<td>Feb 26</td>
+<td>Research agent Phase 1 reference extraction (arXiv papers)</td>
+</tr>
+<tr>
+<td>Feb 27</td>
+<td>Phase 2 extraction (PDFs), comparison experiment, spec v2.0, multi-layer graph vision</td>
+</tr>
+<tr>
+<td>Feb 28</td>
+<td>Process formalization, gap analysis, this article baseline</td>
+</tr>
+</tbody></table>
+</article>
+  </div>
+  </body>
+</html>
+
