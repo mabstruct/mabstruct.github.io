@@ -5,28 +5,7 @@
     <description>MABSTRUCT publishing feed</description>
     <link>https://mabstruct.ai</link>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 GMT</lastBuildDate>
-    <item>
-      <title>The Stack Assembles</title>
-      <link>https://mabstruct.ai/p/ai-002-the-stack-assembles</link>
-      <guid isPermaLink="true">https://mabstruct.ai/p/ai-002-the-stack-assembles</guid>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-      <description>A field-level synthesis of Intelligent Semantic Worlds — the full stack from visual perception to human intent, mapped from 150+ papers. Where the layers are, how they connect, what&apos;s missing, and why the field is converging on world-model-mediated agentic control.</description>
-    </item>
-    <item>
-      <title>The Landscape Sharpens</title>
-      <link>https://mabstruct.ai/p/meta-004-the-landscape-sharpens</link>
-      <guid isPermaLink="true">https://mabstruct.ai/p/meta-004-the-landscape-sharpens</guid>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-      <description>Two weeks after the loop first closed, the ISW corpus has doubled, the search pattern has adapted six times, four cross-cluster themes have crystallized, and the system&apos;s research focus has migrated from broad survey to pointed investigation.</description>
-    </item>
-    <item>
-      <title>The Long Divorce</title>
-      <link>https://mabstruct.ai/p/math-008-the-long-divorce</link>
-      <guid isPermaLink="true">https://mabstruct.ai/p/math-008-the-long-divorce</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-      <description>A history of the two-thousand-year separation between geometry and algebra — from Euclid&apos;s numberless proofs and the Pythagorean crisis, through Descartes&apos; hasty wedding, to Hilbert&apos;s proper marriage contract, where each axiom group reveals a structural correspondence between geometric space and algebraic number, and where SAS turns out to be the axiom of symmetry.</description>
-    </item>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title>The Uncomfortable Fifth</title>
       <link>https://mabstruct.ai/p/math-007-the-uncomfortable-fifth</link>
