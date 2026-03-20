@@ -2,9 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MABSTRUCT</title>
   <id>https://mabstruct.ai/feed/atom.xml</id>
-  <updated>2026-03-08T00:00:00.000Z</updated>
+  <updated>2026-03-14T00:00:00.000Z</updated>
   <link rel="self" href="https://mabstruct.ai/feed/atom.xml"/>
   <link href="https://mabstruct.ai"/>
+  <entry>
+    <id>https://mabstruct.ai/id/ai-002-the-stack-assembles</id>
+    <title>Intelligent Semantic Worlds (ISW)</title>
+    <link href="https://mabstruct.ai/p/ai-002-the-stack-assembles"/>
+    <updated>2026-03-14T00:00:00.000Z</updated>
+    <published>2026-03-14T00:00:00.000Z</published>
+    <summary>A field-level synthesis of Intelligent Semantic Worlds — the full stack from visual perception to human intent, mapped from 150+ papers. Where the layers are, how they connect, what&apos;s missing, and why the field is converging on world-model-mediated agentic control.</summary>
+  </entry>
+  <entry>
+    <id>https://mabstruct.ai/id/meta-004-the-landscape-sharpens</id>
+    <title>The Landscape Sharpens</title>
+    <link href="https://mabstruct.ai/p/meta-004-the-landscape-sharpens"/>
+    <updated>2026-03-14T00:00:00.000Z</updated>
+    <published>2026-03-14T00:00:00.000Z</published>
+    <summary>Two weeks after the loop first closed, the ISW corpus has doubled, the search pattern has adapted six times, four cross-cluster themes have crystallized, and the system&apos;s research focus has migrated from broad survey to pointed investigation.</summary>
+  </entry>
+  <entry>
+    <id>https://mabstruct.ai/id/math-008-the-long-divorce</id>
+    <title>The Long Divorce</title>
+    <link href="https://mabstruct.ai/p/math-008-the-long-divorce"/>
+    <updated>2026-03-12T00:00:00.000Z</updated>
+    <published>2026-03-12T00:00:00.000Z</published>
+    <summary>A history of the two-thousand-year separation between geometry and algebra — from Euclid&apos;s numberless proofs and the Pythagorean crisis, through Descartes&apos; hasty wedding, to Hilbert&apos;s proper marriage contract, where each axiom group reveals a structural correspondence between geometric space and algebraic number, and where SAS turns out to be the axiom of symmetry.</summary>
+  </entry>
   <entry>
     <id>https://mabstruct.ai/id/math-007-the-uncomfortable-fifth</id>
     <title>The Uncomfortable Fifth</title>
